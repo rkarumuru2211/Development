@@ -1,6 +1,6 @@
 import {Component} from '@angular/core'
 @Component({
-    selector:"courses",
+    selector:'courses',
     template:`
     <h2>{{ title }}</h2>
     <ul>
@@ -8,8 +8,7 @@ import {Component} from '@angular/core'
             {{course}}
         </li>
     </ul>
-
-    `
+     `
 })
 export  class CourseComponent{
     title='List of Courses';
