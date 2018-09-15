@@ -4,7 +4,7 @@ import {Component} from '@angular/core'
     template:`
     <h2>{{ title }}</h2>
     <ul>
-        <li *ngfor="let course of courses">
+        <li *ngFor="let course of courses">
             {{course}}
         </li>
     </ul>
